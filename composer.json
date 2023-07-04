@@ -1,6 +1,6 @@
 {
     "name": "cahyadsn/ci4basic",
-    "description": "CodeIgniter4 Basic Boilerplate based on AdminLTE 3 with user management, roles, permissions, ...",
+    "description": "CodeIgniter 4 Basic Boilerplate based on AdminLTE 3 with user management, roles, permissions, ...",
     "keywords": [
         "codeigniter4",
         "authentication",
