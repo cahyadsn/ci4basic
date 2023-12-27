@@ -7,8 +7,8 @@ use cahyadsn\ci4basic\Entities\Collection;
 use cahyadsn\ci4basic\Models\GroupModel;
 use cahyadsn\ci4basic\Models\UserModel;
 use CodeIgniter\API\ResponseTrait;
-use Myth\Auth\Authorization\PermissionModel;
-use Myth\Auth\Entities\User;
+use CodeIgniter\Shield\Authorization\PermissionModel;
+use CodeIgniter\Shield\Entities\User;
 
 /**
  * Class UserController.

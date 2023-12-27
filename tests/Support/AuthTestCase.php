@@ -3,15 +3,15 @@
 namespace Tests\Support;
 
 use CodeIgniter\Session\Handlers\ArrayHandler;
-use CodeIgniter\Test\CIDatabaseTestCase;
-use CodeIgniter\Test\ControllerTester;
+use CodeIgniter\Test\DatabaseTestTrait;
+use CodeIgniter\Test\ControllerTestTrait;
 use CodeIgniter\Test\Mock\MockSession;
-use Myth\Auth\Entities\User;
-use Myth\Auth\Models\UserModel;
+use CodeIgniter\Shield\Entities\User;
+use CodeIgniter\Shield\Models\UserModel;
 
-class AuthTestCase extends CIDatabaseTestCase
+class AuthTestCase extends DatabaseTestTrait
 {
-    use ControllerTester;
+    use ControllerTestTrait;
 
     /**
      * Should the database be refreshed before each test?
@@ -32,10 +32,10 @@ class AuthTestCase extends CIDatabaseTestCase
      *
      * @var string
      */
-    protected $namespace = ['Myth\Auth', 'cahyadsn\ci4basic'];
+    protected $namespace = ['CodeIgniter\Shield', 'cahyadsn\ci4basic'];
 
     /**
-     * @var \Myth\Auth\Models\UserModel
+     * @var \CodeIgniter\Shield\Models\UserModel
      */
     protected $users;
 

@@ -2,7 +2,7 @@
 
 namespace cahyadsn\ci4basic\Models;
 
-use Myth\Auth\Authorization\PermissionModel as BaseModel;
+use CodeIgniter\Shield\Authorization\PermissionModel as BaseModel;
 
 class PermissionModel extends BaseModel
 {

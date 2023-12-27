@@ -4,8 +4,8 @@ namespace cahyadsn\ci4basic\Database\Seeds;
 
 use CodeIgniter\Config\Services;
 use CodeIgniter\Database\Seeder;
-use Myth\Auth\Entities\User;
-use Myth\Auth\Models\UserModel;
+use CodeIgniter\Shield\Entities\User;
+use CodeIgniter\Shield\Models\UserModel;
 
 /**
  * Class BoilerplateSeeder.

@@ -2,7 +2,7 @@
 
 namespace cahyadsn\ci4basic\Models;
 
-use Myth\Auth\Models\UserModel as BaseModel;
+use CodeIgniter\Shield\Models\UserModel as BaseModel;
 
 class UserModel extends BaseModel
 {
