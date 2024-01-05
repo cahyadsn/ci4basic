@@ -5,7 +5,7 @@ namespace Tests\Support;
 use CodeIgniter\Session\Handlers\ArrayHandler;
 use CodeIgniter\Test\Mock\MockSession;
 
-class SessionTestCase extends \CodeIgniter\Test\DatabaseTestTrait
+class SessionTestCase extends \CodeIgniter\Test\CIDatabaseTestCase
 {
     /**
      * @var SessionHandler
