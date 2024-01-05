@@ -2,7 +2,7 @@
 
 namespace cahyadsn\ci4basic\Models;
 
-use CodeIgniter\Shield\Authorization\GroupModel as BaseModel;
+use Myth\Auth\Authorization\GroupModel as BaseModel;
 
 /**
  * Class Group.
