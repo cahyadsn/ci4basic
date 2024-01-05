@@ -87,7 +87,7 @@
   <!-- Render section boilerplate js -->
   <?= $this->renderSection('js') ?>
   <script>
-  $.ajaxSetup({headers:{'<?= config('App')->CSRFHeaderName ?>':$('meta[name="<?= config('App')->CSRFTokenName ?>"]').attr('content')}})
+  $.ajaxSetup({headers:{'<?= config('Security')->headerName ?>':$('meta[name="<?= config('Security')->tokenName ?>"]').attr('content')}})
   </script>
   <!-- Sweeat alert -->
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9.7.2/dist/sweetalert2.all.min.js"></script>
